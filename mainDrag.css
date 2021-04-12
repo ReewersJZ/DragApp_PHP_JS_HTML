@@ -1,0 +1,645 @@
+
+/*style of navigation*/
+
+header{
+	background-color: transparent;
+}
+
+.bg-navigation
+{
+	background-color: white !important;
+}
+
+.icons_nav
+{
+	width: 20px;
+	margin-right: 12px;
+}
+
+.navbar{
+	
+	border-bottom: 2px rgb(236, 234, 234);
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+}
+
+.navbar-brand{
+	margin-left: 5%;
+}
+
+body
+{
+	background-color: white;
+	color: black;
+	font-size: 17px;
+	overflow-x: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+	font-family: "Montaga";
+	src: url('fonts/Montaga/Montaga-Regular.ttf');
+}
+
+.example::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	font-weight: bold;
+	color: black;
+	margin: 16px;
+}
+
+
+.mainContainer{
+	margin-top: 100px;
+}
+
+.mainPicture{
+	padding-bottom: 1%;
+	width: 100%;
+}
+
+@media (max-width: 991px)
+{
+	.mainPicture
+	{
+		padding-top: 10%;
+	}
+}
+
+
+/*DRAGAPP style!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/*index.html*/
+.btn, .form-control{
+
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#inputEmail, #inputPassword, .btn, #newinputPassword, #newinputPasswordRepeated{
+	width: 40%;
+}
+
+.btn{
+	background-color: #757575;
+	border-color: white;
+}
+
+.divLicznik{
+	display: none;
+}
+
+
+/*main_panel*/
+
+.notVisible{
+	display: none;
+}
+
+.paddingLeft{
+	margin-left: 12px !important;
+}
+
+.buttonAdd{
+	margin-right: 0%;
+}
+
+.redButton{
+	background-color: #ed1c24;
+	width: 100%;
+}
+
+.greyButton{
+	width: 100%;
+}
+
+#showMaterialsDivs{
+	display: none;
+}
+
+/*raport_robocze.php*/
+
+.myTableRap{
+    width: 97%;
+}
+
+.classOfRapTable{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+	background-color: #181363;
+	font-size: 12px;
+}
+
+.classOfRapTableElements{
+    text-align: center;
+	background-color: white;
+	font-size: 12px;
+}
+
+.buttonEdit{
+	width: 100% !important;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 12px;
+}
+
+.notToShow, .notToShowIDDiv{
+	display: none;
+}
+
+.shortLine, .rap_style{
+	text-align: right;
+    margin-right: 0%;
+}
+
+.placeToSumAmount{
+	text-align: left;
+}
+
+.formToRight, .formToLeft{
+    text-align: center;
+}
+
+.long_message2{
+    width: 70%;
+
+}
+
+.icons_nav_print{
+    width: 20px;
+	margin-left: 12px;
+}
+
+/*raport_plus.php*/
+.card-body{
+	height: auto !important;
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+/*save_to_base_editForm.php*/
+.container.mainContainer.editForm{
+	margin-top: 40px !important;
+}
+
+/*insert_2.php*/
+.naglowek_raportu{
+	font-size: 16px;
+    margin-top: 10;
+    font-weight: bold;
+	color: black;
+}
+
+.classOfRapTableGrey{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+	background-color:#5F6A6A ;
+	font-size: 12px;
+}
+
+.classOfRapTableGreen{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+	background-color: #117A65;
+	font-size: 12px;
+}
+
+.dotsDiv{
+	text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.dots{
+	width: 3%;
+}
+
+/*koniec dragapp!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*style of main*/
+
+
+
+
+
+/*do sprawdzenia które style zostają*/
+
+@media (max-width: 767px)
+{
+	#sliderTextChangeToRight{
+	margin-right: 0%;
+	padding-bottom: 15%;
+}
+}
+
+
+@media (max-width: 767px)
+{
+	.sliderTextChangeToRightParagraph{
+	margin-right: 0%;
+	font-size: 3.5vw;
+}
+}
+
+@media (max-width: 767px)
+{
+	#sliderTextChangeFont{
+	font-size: 3.5vw;
+}
+}
+
+
+
+
+@media (max-width: 767px)
+{
+	.sliderTextLong{
+	margin-left: 0%;
+	padding-bottom: 0%;
+}
+}
+
+
+.mainBanner{
+	padding-top: 90px;
+	padding-left: 10%;
+}
+
+@media (max-width: 767px){
+	.mainBanner{
+		padding-left: 0%;
+	}
+}
+
+.mainBannerToCenter{
+	padding-left: 15%;
+}
+
+@media (max-width: 767px){
+	.mainBannerToCenter{
+		padding-left: 0%;
+	}
+}
+
+
+.banerImage{
+	width: 50%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 6%
+}
+
+
+
+.album{
+	background-color: white !important;
+}
+
+.listOfStart{
+	list-style: none;
+	padding-left: 5%;
+}
+
+.listOfStartHeading{
+	font-size: 30px;
+}
+
+@media (max-width: 1199px)
+{
+	.listOfStartHeading{
+	font-size: 25px;
+}
+}
+
+@media (max-width: 991px)
+{
+	.listOfStartHeading{
+	font-size: 19px;
+}
+}
+
+@media (max-width: 767px)
+{
+	.listOfStartHeading{
+	font-size: 30px;
+	margin-top: 5%;
+	margin-bottom: 0%;
+}
+}
+
+@media (max-width: 767px)
+{
+	.centralBlockOfInformations{
+	padding-left: 5%! important;
+}
+}
+
+
+@media (max-width: 991px)
+{
+	.listOfStart{
+	padding-left: 0%;
+    font-size: 15px;
+	
+}
+}
+
+@media (max-width: 767px)
+{
+    .listOfStart{
+    font-size: 16px;
+	
+}
+}
+
+.infoShortText{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+@media (max-width: 991px)
+{
+	.infoShortText{
+	margin-top: 5%;
+	margin-bottom: 15%;
+	
+}
+}
+
+@media (max-width: 767px)
+{
+	.infoShortText{
+	margin-top: 5%;
+	margin-bottom: 0%;
+	
+}
+}
+
+
+.icons_contact
+{
+	width: 20px;
+	margin-right: 12px;
+}
+
+.jumbotron
+{
+
+	background-image: linear-gradient(to right, white, grey, red, white);
+	background-position: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+.display-3
+{
+	color: white;
+	text-align: left;
+	font-weight: bold; 
+	font-size: 40px;
+	margin-left: 0%;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.icons
+{
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10%;
+	
+}
+
+.iconsBox{
+	margin: 0;
+	text-align: center;
+}
+
+.card{
+	width: 100%;
+	height: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.card-body{
+	width: auto;
+	height: 180px;
+	text-align: center;
+	margin-top: 10%;
+}
+
+#contWithCarus
+{
+	margin-top: 30px;
+	float: center;
+	padding-top: 5%;
+}
+
+
+
+.caruselBox {
+
+	width: 300px;
+	height: 400px;
+}
+
+.carousel-item{
+	height: 400px;
+	width: 100%;
+}
+
+.aboutUs
+{
+	text-align: justify;
+}
+
+.AboutUsPhoto{
+	max-width: 100%;
+	padding-left: 10%;
+}
+
+@media (max-width: 647px)
+{
+	.display-3
+	{
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 575px)
+{
+	#contactInformation, .aboutUs, .listOfStart
+	{
+		font-size: 16px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+
+@media (max-width: 575px)
+{
+	.listOfStartHeading
+	{
+		font-size: 26px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+
+@media (max-width: 575px)
+{
+	.card, .card-body
+{
+	width: 80%;
+	height: 100%;
+
+	align-items: center;
+}
+}
+
+@media (max-width: 575px)
+{
+	.cardSize
+{
+	padding-left: 20%;
+}
+}
+
+@media (max-width: 575px)
+{
+	.card-body
+{
+	padding-top: 10%;
+}
+}
+
+@media (max-width: 991px)
+{
+	.AboutUsPhoto
+{
+	max-width: 80%;
+	padding-left: 20%;
+	padding-top: 0;
+	margin-top: 0;
+	}
+	
+}
+
+
+@media (max-width: 575px)
+{
+	.iconsBox
+{
+	width: 80%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+}
+
+
+@media (max-width: 991px)
+{
+	.containerWithCarusel
+{
+	padding-left: 25%;
+	padding-right: 25%;
+}
+}
+
+@media (max-width: 520px)
+{
+	.containerWithCarusel
+{
+	padding-left: 8%;
+	padding-right: 25%;
+}
+}
+
+
+@media (max-width: 991px)
+{
+	.card-body
+{
+		width: auto;
+		height: 180px;
+		text-align: center;
+		margin-top: 0%;
+		font-size: 16px;
+}
+}
+
+
+
+@media (max-width: 991px)
+{
+	.icons
+{
+	width: 40%;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 10%;
+	margin-bottom: 0;
+}
+}
+
+
+
+/*style of footer*/
+
+footer
+{
+	background-color: rgba(236, 229, 229, 0.938);
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.footerStyle1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 0;
+
+}
+
+#logo_ree{
+	width: 100px;
+	padding-bottom: 6px;
+}
+
+
+
+
+
+
+
+
+
+
