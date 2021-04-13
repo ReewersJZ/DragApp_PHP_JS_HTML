@@ -21,6 +21,7 @@ The application in this production version has been in use since November 2020. 
 The motivation to write the application was the need to automate the work of a friendly company ordering the service. The application was created as a non-profit project.
 
 <a name="technologies">
+
 ### Technologies
 
 * PHP
@@ -42,15 +43,15 @@ The motivation to write the application was the need to automate the work of a f
 ---
 ![Add materials](./printscreens/add_materials.png)
 
-### Reports panel
+#### Reports panel
 ---
 ![Raports](./printscreens/reports.png)
 
-### Financial report
+#### Financial report
 ---
 ![Financial report](./printscreens/financial_report.png)
 
-### Materials report
+#### Materials report
 ---
 ![Material report](./printscreens/material_report.png)
 
